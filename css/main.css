@@ -1,3 +1,20 @@
+body {
+	font-family: 'Georgia', serif;
+}
+
 img {
 	width: 100%;
+}
+
+h1,h2,h3 {
+	font-family: 'Sigmar One', cursive;
+	color: #b32f52;
+}
+
+nav a:hover {
+	background-color: #cc3865;
+}
+nav a {
+	color: white;
+	background-color: #b2a215;
 }
