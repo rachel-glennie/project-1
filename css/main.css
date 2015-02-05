@@ -11,10 +11,24 @@ h1,h2,h3 {
 	color: #b32f52;
 }
 
+h1 {
+	text-align: center;
+}
+
+nav li {
+	list-style-type: none;
+	display: inline-block;
+}
+
 nav a:hover {
 	background-color: #cc3865;
 }
 nav a {
 	color: white;
 	background-color: #b2a215;
+}
+
+header {
+	background-color: #ffe524;
+	margin: 0em;
 }
