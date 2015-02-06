@@ -42,3 +42,11 @@ footer {
 footer a {
 	color: #b32f52;
 }
+
+figure {
+	background-color: #fffce0;
+	font-style: italic;
+	text-align: center;
+	border: 0.25em solid #c5b844;
+	padding: 1em;
+}
