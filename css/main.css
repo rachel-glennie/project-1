@@ -1,5 +1,7 @@
 body {
 	font-family: 'Georgia', serif;
+	max-width: 45rem;
+	font-size: 0.95em;
 }
 
 img {
@@ -15,22 +17,36 @@ h1 {
 	text-align: center;
 }
 
-nav li {
-	list-style-type: none;
-	display: inline-block;
+.per {
+	font-style: italic;
 }
 
-nav a:hover {
-	background-color: #cc3865;
+ol {
+	list-style-type: none;
+	margin: 0em;
+	padding: 0em;
+	text-align: center;
 }
-nav a {
-	color: white;
+
+ol a {
 	background-color: #b2a215;
+	padding: 0.3rem 0.5rem;
+	color: white;
+	text-decoration: none;
+	border-radius: 4px;
+}
+
+ol li{
+	display: inline-block;
+	margin: 0.5em 0.04em;
+}
+
+ol a:hover {
+	background-color: #cc3865;
 }
 
 header {
 	background-color: #ffe524;
-	margin: 0em;
 }
 
 footer {
@@ -51,4 +67,29 @@ figure {
 	border-radius: 0.8em;
 	padding: 0.75em;
 	margin: 0em;
+}
+
+.quotation {
+	color: #b2a215;
+	font-size: 3em;
+	font-style: italic;
+	text-align: center;
+	margin: 0em;
+	padding: 0em;
+}
+
+blockquote, cite {
+	font-style: italic;
+	color: #b2a215;
+	text-align: center;
+	font-size: 1em;
+	display: inline-block;
+}
+
+dt {
+	font-weight: bold;
+}
+
+dd {
+	padding: 0em;
 }
