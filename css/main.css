@@ -32,3 +32,13 @@ header {
 	background-color: #ffe524;
 	margin: 0em;
 }
+
+footer {
+	background-color: #ffe524;
+	padding: 0.5em;
+	text-align: center;
+}
+
+footer a {
+	color: #b32f52;
+}
