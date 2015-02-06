@@ -47,6 +47,8 @@ figure {
 	background-color: #fffce0;
 	font-style: italic;
 	text-align: center;
-	border: 0.25em solid #c5b844;
-	padding: 1em;
+	border: 0.2em solid #c5b844;
+	border-radius: 0.8em;
+	padding: 0.75em;
+	margin: 0em;
 }
